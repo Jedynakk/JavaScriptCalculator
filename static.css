@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+html {
+    height: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(100deg, rgba(2, 0, 36, 1) 0%, rgba(2, 0, 73, 1) 47%, rgba(162, 133, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.calculator {
+    position: relative;
+    top: 15%;
+}
+
+.keyboard {
+    width: 20rem;
+    height: 25rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0.5rem;
+
+
+}
+
+.display {
+    width: 21.5rem;
+    height: 7rem;
+    background-color: rgb(98, 229, 255);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+button {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(98, 229, 255);
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 1rem;
+    font-family: 'Bungee';
+    font-size: 1.5rem;
+}
