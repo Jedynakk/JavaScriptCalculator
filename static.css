@@ -31,6 +31,16 @@ html {
     background-color: rgb(98, 229, 255);
     border-radius: 1rem;
     margin-bottom: 1rem;
+}
+
+.displayContent {
+    font-family: 'Bungee';
+    font-size: 1.5rem;
+    float: right;
+    text-align: end;
+    position: relative;
+    right: 1rem;
+    top: 1rem;
 
 }
 
