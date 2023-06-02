@@ -20,7 +20,12 @@ function numbers() {
 }
 
 function signs() {
-    sign.innerHTML = this.innerHTML;
+    if (currentNumber.innerHTML != '') {
+        sign.innerHTML = this.innerHTML;
+    }
+    previousNumber.innerHTML = currentNumber.innerHTML
+    currentNumber.innerHTML = '';
+
 }
 
 
