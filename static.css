@@ -31,6 +31,7 @@ html {
     background-color: rgb(98, 229, 255);
     border-radius: 1rem;
     margin-bottom: 1rem;
+    overflow-x: scroll;
 }
 
 .displayContent {
